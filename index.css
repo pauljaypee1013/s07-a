@@ -1,0 +1,116 @@
+
+*  {
+	margin: 0;
+	/*margin  property changes 	the  amount*/
+	padding: 0;
+	box-sizing:border-box;	
+
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	padding:  0.8rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	list-style-type: none;
+}	
+
+nav .nav, nav .navlogo {
+	display: inline;
+		/*inline the li elements into inline elements. By default li elements
+		block elements. This makes all the list */
+		margin: 0.5 rem;
+	}
+
+	#intro {
+		text-align: center;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 2rem;
+		padding-bottom: 3rem;
+	}
+
+	/*Margin VS Padding*/
+	/*Margin -  is best used when creating space between elements*/
+	/*Padding -best ised when creating space between  elements  border 
+	and its content*/
+
+	.header {
+		text-align: center;
+	}
+
+	#intro h2, #intro p{
+		margin-bottom: 1rem;
+	}
+	#intro button {
+		padding: 1rem;
+		color: white;
+		background-color: #c2195b;
+		border-radius: 25px;
+		font-weight: bold;
+	}
+	#succeed-info{
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 2rem;
+		padding-bottom: 3rem;
+	}
+
+	#succeed-info h2{
+		margin-bottom: 1rem;
+		margin-left
+	}
+	#succeed-info h3{
+		padding-left: 5rem;
+	}
+
+	#succeed-info p{
+		text-align: center;
+		padding-top: 1rem;
+		padding-left: 1rem;
+
+	}
+
+	#succeed-info .card {
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+
+	}
+
+	footer {
+		padding: 1rem 28% 3rem;
+
+	}
+
+	footer span{
+		margin-left: 0.5 rem;
+		margin-right: 0.5 rem;
+		lef
+	}
+
+	#pre-footer{
+		
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+
+	}
+
+	#pre-footer div{
+
+		display: inline-block;
+		vertical-align: top;
+		width: 20%;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+	}
+
+	#pre-footer {
+		background-color: #002540;
+		color: white;
+	}
